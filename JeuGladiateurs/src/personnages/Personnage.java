@@ -3,10 +3,10 @@ package personnages;
 public class Personnage {
 
     String nom;
-    int pointsDeVie;
-    int valeurMaxAttaque;
-    int valeurDefense;
-    int initiative;
+    int pvs;
+    int attaqueMax;
+    int defense;
+    int ini;
     // <editor-fold defaultstate="collapsed" desc="Attributs">
     // TODO : Mettre vos attributs ici
     // </editor-fold>
@@ -17,7 +17,11 @@ public class Personnage {
     // <editor-fold defaultstate="collapsed" desc="Constructeurs et initialisation">
     public Personnage(String nom, int attaqueMax, int defense, int pvs, int ini) {
         // TODO : Constructeur AVEC paramètres
-        nom = nom;
+        this.nom = nom;
+        this.attaqueMax = attaqueMax;
+        this.defense = defense;
+        this.pvs = pvs;
+        this.ini = ini;
     }
 
     public Personnage() {
