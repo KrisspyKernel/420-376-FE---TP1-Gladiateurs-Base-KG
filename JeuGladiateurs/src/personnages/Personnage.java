@@ -32,7 +32,15 @@ public class Personnage {
     // TODO : Les getters
     // TODO : Les setters
     // </editor-fold>
-
+    public String getNom()
+    {
+        return this.nom;
+    }
+    public void setNom(String nom)
+    {
+        this.nom = nom;
+    }
+    
     // **************************************************************************
     // **************************************************************************
     // **************************************************************************
