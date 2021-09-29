@@ -26,20 +26,58 @@ public class Personnage {
 
     public Personnage() {
         // TODO : Constructeur SANS paramètres qui initialise à ZÉRO ou à ""
+        this.nom = "";
+        this.attaqueMax = 0;
+        this.defense = 0;
+        this.pvs = 0;
+        this.ini = 0;
     }
     // </editor-fold>
     // <editor-fold defaultstate="collapsed" desc="Getters et setters">
     // TODO : Les getters
     // TODO : Les setters
     // </editor-fold>
-    public String getNom()
-    {
-        return this.nom;
+
+    public String getNom() {
+        return nom;
     }
-    public void setNom(String nom)
-    {
+
+    public void setNom(String nom) {
         this.nom = nom;
     }
+
+    public int getPvs() {
+        return pvs;
+    }
+
+    public void setPvs(int pvs) {
+        this.pvs = pvs;
+    }
+
+    public int getAttaqueMax() {
+        return attaqueMax;
+    }
+
+    public void setAttaqueMax(int attaqueMax) {
+        this.attaqueMax = attaqueMax;
+    }
+
+    public int getDefense() {
+        return defense;
+    }
+
+    public void setDefense(int defense) {
+        this.defense = defense;
+    }
+
+    public int getIni() {
+        return ini;
+    }
+
+    public void setIni(int ini) {
+        this.ini = ini;
+    }
+    
     
     // **************************************************************************
     // **************************************************************************
