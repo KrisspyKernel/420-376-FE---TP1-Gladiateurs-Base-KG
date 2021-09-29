@@ -3,12 +3,12 @@ package personnages;
 public class Personnage {
     // <editor-fold defaultstate="collapsed" desc="Attributs">
     // TODO : Mettre vos attributs ici
-    // </editor-fold>
     String nom;
     int pvs;
     int attaqueMax;
     int defense;
     int ini;
+    // </editor-fold>
     // **************************************************************************
     // **************************************************************************
     // **************************************************************************
@@ -33,50 +33,48 @@ public class Personnage {
     // </editor-fold>
     // <editor-fold defaultstate="collapsed" desc="Getters et setters">
     // TODO : Les getters
-    // TODO : Les setters
-    // </editor-fold>
-
     public String getNom() {
         return nom;
-    }
-
-    public void setNom(String nom) {
-        this.nom = nom;
     }
 
     public int getPvs() {
         return pvs;
     }
 
-    public void setPvs(int pvs) {
-        this.pvs = pvs;
-    }
-
     public int getAttaqueMax() {
         return attaqueMax;
-    }
-
-    public void setAttaqueMax(int attaqueMax) {
-        this.attaqueMax = attaqueMax;
     }
 
     public int getDefense() {
         return defense;
     }
 
-    public void setDefense(int defense) {
-        this.defense = defense;
-    }
-
     public int getIni() {
         return ini;
     }
 
+    // TODO : Les setters
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
+    
+    public void setPvs(int pvs) {
+        this.pvs = pvs;
+    }
+    
+    public void setAttaqueMax(int attaqueMax) {
+        this.attaqueMax = attaqueMax;
+    }
+    
+    public void setDefense(int defense) {
+        this.defense = defense;
+    }
+    
     public void setIni(int ini) {
         this.ini = ini;
     }
-    
-    
+    // </editor-fold>
+
     // **************************************************************************
     // **************************************************************************
     // **************************************************************************
@@ -90,11 +88,11 @@ public class Personnage {
         System.out.println("    Initiative : " + ini);
         if(pvs <= 0)
         {
-            System.out.println("Statut : Mort");
+            System.out.println("    Statut : Mort");
         }
         else
         {
-            System.out.println("Statut : Vivant");
+            System.out.println("    Statut : Vivant");
         }
     }
 
