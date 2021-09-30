@@ -10,14 +10,23 @@ public class AffichageEcran {
     // <editor-fold defaultstate="collapsed" desc="Méthodes d'affichage">
     public void afficherDebutCombat() {
         // TODO : Afficher le message du début du combat, tel que montré dans l'énoncé
+        System.out.println("\n<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>");
+        System.out.println(">>>>> Que le combat commence ! <<<<<");
+        System.out.println("<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>\n");
     }
     
     public void afficherSeparateurDeTour() {
         // TODO : Afficher un retour à la ligne, suivi d'une ligne d'astérisques, tel que montré dans l'énoncé
+        System.out.println();
+        System.out.println("**************************************");
     }
 
     public void afficherSeparateurInfosPerso() {
         // TODO : Afficher un retour à la ligne, suivi du séparateur "infos personnages", tel que montré dans l'énoncé
+        System.out.println();
+        System.out.println("----------------");
+        System.out.println("INFOS PERSONNAGE");
+        System.out.println("----------------");
     }
 
     public void afficheVictoire(Personnage personnage1, Personnage personnage2) {
