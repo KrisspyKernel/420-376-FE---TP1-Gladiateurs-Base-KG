@@ -39,7 +39,7 @@ public class Retiaire extends Personnage {
         {
             dommages = personnageCible.pvs;
             personnageCible.pvs = personnageCible.pvs - dommages;
-            System.out.println("Son filet attrape " + personnageCible + " et il l'empale sauvagement avec sa lance.");
+            System.out.println("Son filet attrape " + personnageCible.getNom() + " et il l'empale sauvagement avec sa lance.");
         }
         else
         {

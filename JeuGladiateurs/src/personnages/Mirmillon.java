@@ -41,7 +41,7 @@ public class Mirmillon extends Personnage{
             if(personnageCible.pvs < 0){personnageCible.pvs = 0;}
             if(personnageCible.pvs <= 0)
             {
-                System.out.println(nom + " a décapité " + personnageCible);
+                System.out.println(nom + " a décapité " + personnageCible.getNom());
                 break;
             }
             else
